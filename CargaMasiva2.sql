@@ -6,7 +6,7 @@ USE proyecto2 ;
 -- -----------------------------------------------------
 DROP TABLE IF EXISTS temporal;
 CREATE TABLE IF NOT EXISTS temporal (
-  idtemporal INT NOT NULL,
+  idtemporal INT NOT NULL AUTO_INCREMENT,
   NOMBRE_ELECCION VARCHAR(150) NOT NULL,
   AÑO_ELECCION INT NOT NULL,
   PAIS VARCHAR(45) NOT NULL,
