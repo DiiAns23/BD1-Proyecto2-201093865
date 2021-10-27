@@ -84,16 +84,10 @@ INSERT INTO sexo (sexo)
 SELECT DISTINCT sexo FROM temporal t;
 
 -- -----------------------------------------------------
--- Llenado de Edad
--- -----------------------------------------------------
-INSERT INTO edad (edad)
-SELECT DISTINCT edad FROM temporal t;
-
--- -----------------------------------------------------
 -- Llenado de Votos
 -- -----------------------------------------------------
 INSERT INTO R_votos (id_eleccion, id_municipio, id_departamento, id_region, id_pais, id_partido, id_raza, id_sexo, analfabetos, alfabetos, primaria, medio, universitario) 
-SELECT e.id_eleccion, m.id_municipio,d.id_departamento, re.id_region, re.id_pais, p.id_partido, r.id_raza, s.id_sexo, t.analfabetos, t.alfabetos, t.primaria, t.nivel_medio, t.universitarios 
+SELECT DISTINCT e.id_eleccion, m.id_municipio,d.id_departamento, re.id_region, re.id_pais, p.id_partido, r.id_raza, s.id_sexo, t.analfabetos, t.alfabetos, t.primaria, t.nivel_medio, t.universitarios 
 FROM eleccion e, municipio m, partido p, raza r, sexo s, temporal t, tipo ti, fecha f, pais pa, region re, departamento d
 WHERE
 	t.nombre_eleccion = ti.tipo AND
