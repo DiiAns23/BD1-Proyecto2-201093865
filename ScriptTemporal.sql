@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS proyecto2;
-USE proyecto2 ;
+CREATE DATABASE IF NOT EXISTS MySQL;
+USE MySQL ;
 
 -- -----------------------------------------------------
 -- Table Temporal

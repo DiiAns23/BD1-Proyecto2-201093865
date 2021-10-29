@@ -1,4 +1,4 @@
-USE proyecto2;
+USE MySQL;
 
 DROP TABLE IF EXISTS R_votos ;
 DROP TABLE IF EXISTS Edad;
