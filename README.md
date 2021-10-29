@@ -1,12 +1,26 @@
 # ***DOCUMENTACIÓN***
 
 ## **Indice** 📚
+  - [Informacion](#informacion)
   - [Introduccion 📕](#introduccion)
   - [Normalizacion 🧑🏼‍💻](#normalizacion)
-    - [Primera 🥇](#primera)
-    - [Segunda 🥈](#segunda)
-    - [Tercera 🥉](#tercera)
+    - [Primera 🥇](#primeraN)
+    - [Segunda 🥈](#segundaN)
+    - [Tercera 🥉](#terceraN)
   - [Versiones 🔧](#versiones)
+
+<div id='informacion'>
+
+## **Informacion**
+
+``` python
+universidad = "Universidad San Carlos De Guatemala"
+facultad = "Facultad De Ingenieria"
+escuela = "Escuela De Ciencias Y Sistemas"
+curso = "Sistemas De Bases De Datos 1"
+nombre  = "Diego Andrés Obín Rosales"
+carne = 201903865
+```
 
 
 <div id='introduccion'>
